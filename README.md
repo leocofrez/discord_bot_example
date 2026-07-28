@@ -1,5 +1,5 @@
 # discord AI Bot
-Discord bot that answers like a pirate
+Discord bot that answers like a Multimedia Monster
 
 # .env 
 Update the .env with your discord bot token and the key from OpenAI<br>
