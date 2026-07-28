@@ -17,7 +17,7 @@ def call_openai(question):
         messages=[
              {
                  "role": "user",
-                 "content": f"Respond like a pirate to the following question:  {question}",
+                 "content": f"Respond like a multimedia monster te to the following question:  {question}",
             },
         ]
     )
@@ -42,7 +42,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('$hello'):
-        await message.channel.send('Hello Arg!')
+        await message.channel.send('Hello monster, groaaar!')
 
     if message.content.startswith('$question'):
         print(f"Message: {message.content}")                
